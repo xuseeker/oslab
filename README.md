@@ -1,2 +1,2 @@
 # oslab
-This is some tools and code about oslab in WHU course
+There are some tools and code about oslab in WHU course
