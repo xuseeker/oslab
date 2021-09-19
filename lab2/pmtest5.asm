@@ -45,9 +45,9 @@ PMMessage:		db	"Now in protect mode", 0	; 进入保护模式后显示此字符�
 OffsetPMMessage		equ	PMMessage - $$
 StrTest:		db	"ABCDEFGHIJKLMNOPQRSTUVWXYZ", 0
 OffsetStrTest		equ	StrTest - $$
-printMessage1           db      "name : liang huilin", 0
+printMessage1           db      "name : xu", 0
 OffsetprintMessage1     equ	printMessage1 - $$
-printMessage2           db      "stu_num : 2019302180171", 0
+printMessage2           db      "stu_num : 1234567", 0
 OffsetprintMessage2     equ     printMessage2 - $$
 DataLen			equ	$ - LABEL_DATA
 ; END of [SECTION .data1]
